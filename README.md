@@ -18,8 +18,8 @@ python main.py <output_folder> \
                 --num_words <num> \
                 --num_sentences <num> \
                 --apply_augmentation \
-                --lang <language> -\
-                -fonts_yaml <path_to_fonts_yaml>
+                --lang <language> \
+                --fonts_yaml <path_to_fonts_yaml>
 ```
 
 ## Example
