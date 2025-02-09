@@ -1,4 +1,5 @@
 # Syn-Text-Generator
+Generate random Wikipedia sentences as images.
 
 ## Installation
 Install dependencies with Poetry:
