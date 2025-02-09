@@ -14,12 +14,22 @@ poetry install --no-interaction
 
 Run the pipeline with the following command:
 ```bash
-python main.py <output_folder> --num_words <num> --num_sentences <num> --apply_augmentation --lang <language> --fonts_yaml <path_to_fonts_yaml>
+python main.py <output_folder> \
+                --num_words <num> \
+                --num_sentences <num> \
+                --apply_augmentation \
+                --lang <language> -\
+                -fonts_yaml <path_to_fonts_yaml>
 ```
 
 ## Example
 ```bash
-python main.py images_output_folder --num_words 12 --num_sentences 10 --apply_augmentation --lang en --fonts_yaml ./src/syn_text/config/fonts.yaml
+python main.py images_output_folder \
+                --num_words 12 \
+                --num_sentences 10 \
+                --apply_augmentation \
+                --lang en \
+                --fonts_yaml ./src/syn_text/config/fonts.yaml
 ```
 
 ### Parameters:  
