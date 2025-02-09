@@ -18,6 +18,7 @@ pillow = "11.1.0"  # For image manipulation
 wikipedia-api = "0.5.8"  # For Wikipedia API interaction
 wikipedia = "1.4.0"  # For Wikipedia page interaction
 pyyaml = "6.0.2"  # For loading fonts from YAML
+scipy = "1.15.1"  # For image transformations
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"  # For testing purposes
