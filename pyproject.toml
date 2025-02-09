@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "Syn-Text"
+version = "0.0.1"
+description = "Generate random Wikipedia sentences as images."
+authors = ["Daniel Parres"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/dparres/Syn-Text-Generator"
+keywords = ["wikipedia", "images", "random", "augments"]
+packages = [{ include = "syn_text", from = "src" }]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"  # Specify Python 3.12 compatibility
+
+# List of dependencies
+pillow = "11.1.0"  # For image manipulation
+wikipedia-api = "0.5.8"  # For Wikipedia API interaction
+wikipedia = "1.4.0"  # For Wikipedia page interaction
+pyyaml = "6.0.2"  # For loading fonts from YAML
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2"  # For testing purposes
+flake8 = "^3.9"  # For code style checks
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
